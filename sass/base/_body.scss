@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+}
+body{
+    background: linear-gradient(to bottom right, #ffffff, #ffffff);
+}
+.content{
+    background-image: linear-gradient(to bottom, #ccc, transparent);
+    height: 100vh;
+    z-index: -100;
+}
+.main{
+    padding: 10px;
+    font-weight: bolder;
+    &_hi{
+        opacity: 0;
+        text-align: center;
+        font-size: 30rem;
+    }
+    &_text{
+        font-size: 10rem;
+        text-align: center;
+        letter-spacing: 1.4rem;
+        opacity: 0;
+        &_tag{
+            font-size: 15rem;
+            color: rgb(0, 140, 255);
+        }
+    }
+    &_know{
+        text-align: center;
+        opacity: 0;
+        font-size: 10rem;
+        letter-spacing: 1.4rem;
+    }
+}
+.changeText{
+    transition: all 3s ease-in-out;
+}
+
+
+.align-center{
+    display: flex;
+    align-items: center;
+}
+
+.background-image-1{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}

@@ -1,0 +1,59 @@
+
+.arrowAnim{
+    position: relative;
+}
+  .arrow {
+    width: 100px;
+    height: 100px;
+    border: 50px solid;
+    border-color: black transparent transparent black;
+    transform: rotate(-135deg);
+  }
+  
+  
+  .arrowSliding {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    -webkit-animation: slide 4s linear infinite; 
+            animation: slide 4s linear infinite;
+            &:hover{
+                cursor: pointer;
+            }
+  }
+  
+  .delay1 {
+    -webkit-animation-delay: 1s; 
+      animation-delay: 1s;
+  }
+  .delay2 {
+    -webkit-animation-delay: 2s; 
+      animation-delay: 2s;
+  }
+  .delay3 {
+    -webkit-animation-delay: 3s; 
+      animation-delay: 3s;
+  }
+  
+  @-webkit-keyframes slide {
+      0% { opacity:0; transform: translateY(-150px); }	
+     20% { opacity:1; transform: translateY(-90px); }	
+     80% { opacity:1; transform: translateY(90px); }	
+    100% { opacity:0; transform: translateY(150px); }	
+  }
+  @keyframes slide {
+      0% { opacity:0; transform: translateY(-150px); }	
+     20% { opacity:1; transform: translateY(-90px); }	
+     80% { opacity:1; transform: translateY(90px); }	
+    100% { opacity:0; transform: translateY(150px); }	
+  }
+
+
+  @media (min-width : 768px) 
+  and (max-width : 1024px){
+    .arrowSliding {
+        position: absolute;
+        bottom: 10%;
+        right: 20%;
+    }
+  }

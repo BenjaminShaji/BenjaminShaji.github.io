@@ -1,0 +1,122 @@
+.footer{
+    position: fixed;
+    right: 0;
+    top: 40%;
+    z-index: 500;
+    &-link{
+        text-align: center;
+        color: rgba(233, 230, 230, 0.637);;
+        &-fb{
+            font-size: 2rem;
+            background-color: #444;
+            padding: 10px;
+            list-style-type: none;
+            &:hover{
+                background-color: #000;
+                color: #fff;
+            }
+        }
+
+        &-tw{
+            font-size: 2rem;
+            background-color: #444;
+            padding: 10px;
+            list-style-type: none;
+            &:hover{
+                background-color: #000;
+                color: #fff;
+            }
+        }
+        &-gp{
+            font-size: 2rem;
+            background-color: #444;
+            padding: 10px;
+            list-style-type: none;
+            &:hover{
+                background-color: #000;
+                color: #fff;
+            }
+        }
+        &-ln{
+            font-size: 2rem;
+            background-color: #444;
+            padding: 10px;
+            list-style-type: none;
+            &:hover{
+                background-color: #000;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.terms{
+    margin-top: 50px;
+    height: 20px;
+    width: 100%;
+    background-color: #000;
+    &-content{
+        display: block;
+    }
+    & p{
+        color: white;
+        font-size: 1.2rem;
+        display: block;
+        margin-left: 45%;
+        margin-bottom: 0px;
+        & a{
+            border-bottom: 1px solid blue;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    overflow: auto;
+  }
+  
+  /* The Close Button */
+
+  .modal-content-1{
+    padding: 50px;
+      font-size: 2rem;
+  }
+  .modal-content-2{
+    padding: 50px;
+    font-size: 2rem;
+}
+.modal-content-3{
+    padding: 50px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.close-btn{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    width: 100px;
+    padding: 10px;
+    border: 2px solid #999;
+    margin: 0 auto;
+}
