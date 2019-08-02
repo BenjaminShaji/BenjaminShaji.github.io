@@ -24,7 +24,6 @@ function closeme() {
 
 $(document).ready(function () {
 
-
   setInterval(function () {
     $(".main_hi").addClass("changeText");
     $(".main_hi").css({ "opacity": "1" })
@@ -125,6 +124,35 @@ $(document).ready(function () {
   $(".bar-9").mouseleave(function () {
     $(".bar-2-9").css({ "width": "0%" })
   })
+
+   //  Bar 10
+   $(".bar-10").mouseenter(function () {
+    $(".bar-2-10").css({ "width": "40%" })
+  })
+
+  $(".bar-10").mouseleave(function () {
+    $(".bar-2-10").css({ "width": "0%" })
+  })
+
+   //  Bar 11
+   $(".bar-11").mouseenter(function () {
+    $(".bar-2-11").css({ "width": "40%" })
+  })
+
+  $(".bar-11").mouseleave(function () {
+    $(".bar-2-11").css({ "width": "0%" })
+  })
+
+   //  Bar 12
+   $(".bar-12").mouseenter(function () {
+    $(".bar-2-12").css({ "width": "30%" })
+  })
+
+  $(".bar-12").mouseleave(function () {
+    $(".bar-2-12").css({ "width": "0%" })
+  })
+
+  
 
   AOS.init();
 });
